@@ -185,7 +185,7 @@ curl http://127.0.0.1:8787/api/turnstile-site-key
 
 ## 🔗 Live Demo
 
-**Frontend (Cloudflare Pages):** `[placeholder not deployed yet]`  
+**Frontend (Cloudflare Pages):** `[https://ai-internet-guardian.pages.dev/]`  
 **Backend API (Workers):** `[https://cf_ai_internet_guardian.asfawmesud.workers.dev/]`
 
 
@@ -201,17 +201,18 @@ curl http://127.0.0.1:8787/api/turnstile-site-key
 ## 📸 Screenshots
 
 ### Main Interface
-![Chat interface with URL analysis](docs/screenshot-main.png)
 > Clean, intuitive chat interface with real-time AI responses
 
 ### Voice Input
-![Voice input feature](docs/screenshot-voice.png)
 > Hands-free querying with Web Speech API integration
 
 ### Safety Verdict
-![Safety verdict display](docs/screenshot-verdict.png)
 > Clear color-coded verdicts: SAFE (green), SUSPICIOUS (yellow), RISKY (red)
+> 
+![demo](docs/cloudflare demo.gif)
 
+![turnstilil](docs/Turnstile screenshot.png)
+![workers and pages](docs/Worker screenshot.png)
 
 ---
 
