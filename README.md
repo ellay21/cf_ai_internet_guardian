@@ -2,8 +2,7 @@
 
 > **Cloudflare Internship Challenge 2026** - An intelligent URL safety analysis platform built entirely on Cloudflare's edge infrastructure
 ## 🎬 Demo
-![Demo](docs/demo.gif)
-
+![Demo](https://raw.githubusercontent.com/ellay21/cf_ai_internet_guardian/main/docs/demo.gif)
 ## 📖 Overview
 
 **Internet Guardian** is a production-ready web application that leverages artificial intelligence to analyze URLs and answer security questions in real-time. Users can type queries or use voice input to get instant safety assessments powered by Llama 3.3 running on Cloudflare Workers AI.
