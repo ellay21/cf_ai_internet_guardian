@@ -1,0 +1,24 @@
+name = "cf_ai_internet_guardian"
+main = "src/worker.js"
+
+# Cloudflare KV Namespace for storing analysis history
+kv_namespaces = [
+  { binding = "CHAT_MEMORY", id = "your_key" }
+]
+
+# Cloudflare Workers AI binding
+[ai]
+binding = "AI"
+
+# Environment variables for secrets
+# These should be set via wrangler secret command in production:
+# wrangler secret put TURNSTILE_SECRET
+# wrangler secret put TURNSTILE_SITE_KEY
+# wrangler secret put RADAR_API_KEY (optional)
+# wrangler secret put ALLOWED_ORIGINS (optional)
+#
+# For local development, use .dev.vars file:
+# TURNSTILE_SECRET=your_secret
+# TURNSTILE_SITE_KEY=your_key
+# RADAR_API_KEY=your_key (optional)
+# ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000 (optional)

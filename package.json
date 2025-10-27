@@ -1,0 +1,16 @@
+{
+  "name": "cf-ai-internet-guardian",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers AI-powered URL safety analyzer",
+  "main": "src/worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "build": "wrangler build"
+  },
+  "devDependencies": {
+    "wrangler": "^3.64.0"
+  },
+  "dependencies": {}
+}
