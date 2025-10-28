@@ -1,6 +1,9 @@
 # 🛡️ Internet Guardian - AI-Powered Web Safety Analyzer
 
 > **Cloudflare Internship Challenge 2026** - An intelligent URL safety analysis platform built entirely on Cloudflare's edge infrastructure
+## 🔗 Live 
+**Frontend (Cloudflare Pages):** [https://ai-internet-guardian.pages.dev](https://ai-internet-guardian.pages.dev)  
+**Backend API (Workers):** [https://cf_ai_internet_guardian.asfawmesud.workers.dev](https://cf_ai_internet_guardian.asfawmesud.workers.dev)
 ## 🎬 Demo
 ![Demo](https://raw.githubusercontent.com/ellay21/cf_ai_internet_guardian/main/docs/demo.gif)
 ## 📖 Overview
@@ -183,12 +186,6 @@ curl http://127.0.0.1:8787/api/turnstile-site-key
    - Redeploy
 
 ---
-
-## 🔗 Live Demo
-
-**Frontend (Cloudflare Pages):** [https://ai-internet-guardian.pages.dev](https://ai-internet-guardian.pages.dev)  
-**Backend API (Workers):** [https://cf_ai_internet_guardian.asfawmesud.workers.dev](https://cf_ai_internet_guardian.asfawmesud.workers.dev)
-
 
 ### API Endpoints
 
